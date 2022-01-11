@@ -12,15 +12,25 @@
         <img src="public/LOGO-TOPO.png" width="300px" alt="logo topo">
         <nav>
             <ul>
-                <li><a href=""></a>Home</li>
-                <li><a href=""></a>Sobre</li>
-                <li><a href=""></a>Anunciar Vaga</li>
-                <li><a href=""></a>Contato</li>
+                <li><a href="/"></a>Home</li>
+                <li><a href="#"></a>Sobre</li>
+                <li><a href="#"></a>Anunciar Vaga</li>
+                <li><a href="#"></a>Contato</li>
+                <li class="btn"><a href="#"></a>Entrar</li>
             </ul>
         </nav>
     </header>
     <section id="banner">
-        
+        <div id="form">
+            <form method="POST" action="pesquisar">
+                <input type="text" name="nome_curso" placeholder="Vaga..." class="search"><br><br>
+                <input type="text" name="conteudo_curso" placeholder="Cidade,Estado..." class="search"><br><br>
+                <input type="submit" value="BUSCAR VAGA" class="btn-search">
+            </form>
+        </div>
     </section>
+    <main>
+
+    </main>
 </body>
 </html>
